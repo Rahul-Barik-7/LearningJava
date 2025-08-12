@@ -1,0 +1,14 @@
+TypeCasting 
+---------
+>> Converting one type of data into another type is called type casting
+>> We have 2types of type casting 
+>> We can do casting for primitive type and also object type 
+
+	1) Up-casting / Widening (converting the value from smaller to larger type)	
+			>> its a automatic process 
+			>> implicitly we have to do
+	2) Down-casting / Narrowing (converting the value from Larger to smaller type)
+			>> its a manually process 
+			>> there may be chances for data lose
+			>> explicitly we have to do
+	

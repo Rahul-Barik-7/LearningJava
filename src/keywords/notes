@@ -1,0 +1,17 @@
+final keyword
+---------------
+>> apply for class , variables and methods
+
+for variable:
+>> we can get the value but we cannot change the value of the variables because its fixed
+
+for method:
+>> if your method is final then you cannot override inside child classes
+
+for class:
+>> We cannot extend final class
+>> Even though you can't inherit a final class, you can create an instance of it and call its methods.
+
+super
+-----
+>> use to invoke the immediate parent class variable and methods 

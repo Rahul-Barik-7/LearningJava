@@ -1,0 +1,2 @@
+1. String is Immutable 
+2. StringBuffer and String builder are mutable

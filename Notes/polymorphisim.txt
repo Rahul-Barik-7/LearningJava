@@ -1,0 +1,3 @@
+--polymorphism means one thing can have many forms 
+ex: Shape: circle, traingle, rectangle
+--we can achieve polymorphism by using overloading concept

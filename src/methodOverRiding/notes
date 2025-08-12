@@ -1,0 +1,7 @@
+@overriding:
+>> suppose you are having two class one is parent and another is child and both the class is having same method definition, if you want to change the parent 
+class method implementation without changing the definition then it is called method over riding.
+
+>>static method we can overload and override 
+
+>> Overriding concept is possible only with inheritance because for overriding 2 class are required one is parent and another is child

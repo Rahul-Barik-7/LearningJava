@@ -1,0 +1,34 @@
+class - collection of attributes and behavior (General definition)
+Example: Animal(class)=dog,cow,cat(objects) 
+
+class in java
+---------------
+- class is a collection of variables and methods
+- class is logical entity/blue print of an object
+- not occupy any space in the memory
+
+Objects
+--------------
+- object is an instance of an class & object will be created by using class
+- object is a physical entity
+- occupy space in the memory
+- we can create multiple object for a single class 
+
+
+methods
+----------
+- its a group of statement or instructions which going to perform when we will call it 
+- used to specifying logic
+
+4types ----
+//no parameters no return value
+/no parameters  return value
+//parameters no return value
+//parameters & return value
+
+constructor
+------------
+- use to initializing the value of the variable or object
+- constructor automatically invoked the time of object creation
+
+

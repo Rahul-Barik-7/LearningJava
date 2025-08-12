@@ -1,0 +1,53 @@
+Use of Constructor: 
+--------------------
+1. Constructor concept is specially design to perform initialization of an object. 
+
+Rules For Constructor:
+--------------------------
+1. Constructor name must be same as class name
+2. There is no return type allow for constructor even void also , if you will mention void compiler will treats like method.
+
+Which modifiers are allowed for constructor
+-----------------------------------------------
+1. public  (any where you can create object)
+2. default  (we can create the object within the same package)
+3. protected  (we can create the object within the package , but outside package only in child classes)
+4. private (we can create the object within the class only)
+
+
+--> Default constructor access modifier is same as class modifier[only applicable for public and <defaullt>].
+--> Default constructor contains only one line code that is super() call statement 
+    -- it is a no-arg call to super class constructor
+
+--> the 1st line of every constructor should be either super() or this() if you are not writing compiler will place 
+    Super()
+
+--> this and super
+   - you can use any where but not static area 
+   -this key word is used for access the current class property
+   -super key word is used for access the parent class property
+   
+--> Super() statement should be 1st statement inside the constructor.
+--> we can use either super or this but not both  simultaneously.
+-->we can use super or this call statement only inside the constructor.
+--> Super() - to call super class constructor
+--> this() - to call current class constructor
+
+--> if a class is having same name but different arguments type constructor is called constructor overloading
+--> inheritance overriding concept is not applicable for constructor bcz the parent class constructor is not present in child class
+--> constructor concept is not applicable for interfaces because every interface class members contains public, static, and final
+
+oops
+-----
+class
+object
+encapsulation
+inheritance
+polymorphism
+abstraction
+interface
+
+
+
+
+

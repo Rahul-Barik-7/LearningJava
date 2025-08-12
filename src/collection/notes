@@ -1,0 +1,42 @@
+collection
+--------------
+1. A collection in Java is a group of objects stored in a single unit.
+2. it is an interface which is present inside java.utils package
+3. The Java Collections Framework (JCF) provides standard implementations of common data structures and algorithms.
+
+Why Use Collections?
+------------------------
+Efficiently store, retrieve, and manipulate data.
+Reduce the need for custom data structures.
+Provide type safety and generic support.
+Improve performance using optimized algorithms.
+
+ArrayList
+--------
+-ArrayList is a class which is implemented list interface.
+its supports:
+1. Heterogeneous data allowed
+2. Insertion order allowed means indexing is allowed
+3. Duplicate element allowed
+4. Accepts multiple nulls
+
+HashSet
+----------
+HashSet is a class which is implemented set interface.
+its supports:
+1. Heterogeneous data allowed
+2. Insertion order  not allowed means indexing not supported 
+3. Duplicate element not allowed
+4. multiple nulls are not allowed /only single allowed
+
+Note:-- Depends upon the nature of the data we have to select collection type
+
+
+Map interface
+---------------
+In the map interface you can store the data by the form of key and values 
+HashMap:- is a class which is implemented Map collection.
+1. the combination of key and values is called one pairs
+2. key should not be duplicate again but the value can duplicate , if you will add duplicate key then it will replace the old value 
+3. Insertion order  not allowed means indexing not supported
+4. When should prefer - when you have the data in the form of key and values (Example: key: browser , values:edge)

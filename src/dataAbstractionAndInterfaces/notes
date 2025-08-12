@@ -1,0 +1,27 @@
+what is abstraction :
+-----------------------
+>> The process of hiding the implementation details and showing only the functionality to the user is called abstraction 
+
+>> We can achieve abstraction 2 ways 
+   1) using Abstract class (by using abstract class we cannot achieve 100% abstraction)
+   2) using interface concept (by using interface we can achieve 100% abstraction)
+   
+   
+   Interface
+   ---------------
+   >> its a blue print of the class
+   >> interface contains static and final variable by-default
+   >> interface contains abstract method (also allowed default methods and static methods from java8 onwards)
+   >> abstract method is method which contains only method signature but not implementation or unimplemented method
+   >> methods in interface are public  by-default
+   >> the time of implement abstract method in the child class the method should be public 
+   >> interface supports multiple inheritance
+   >> class-class -extends
+   >> interface-interface -extends
+   >> interface-class - implements 
+   >> we can create object reference for interface but we can not instantiate interface (we can not object for interface)
+   
+   why we create the abstract method inside interface and what is the use and who will implement this method
+   ------------------------------------------------------------------------------------------------------------
+   >> because developer do not know how to implement before design part is not done , only know the requirement and as per the requirement he will create 
+      the abstract method and later he will implement inside another class

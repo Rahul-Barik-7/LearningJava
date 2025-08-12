@@ -1,0 +1,42 @@
+exception Handling
+---------------------
+Exception:
+>> Exception is an event which will cause the program termination
+
+types of exception 
+-------------------
+Checked Exception:
+-------------------
+>> The exception which are identified by java compiler
+Example: FileNotFpoundException
+		 IOException etc
+>>Checked Exception we can handled in 2 ways
+		1) using try and catch block 
+		2) using throws keyword
+
+
+Unchecked Exception:
+-------------------
+>> The exception which are not identified by java compiler
+Example: ArithmaticException
+		 NullpointerException
+		 ArrayindexOutOfBoundsExcception
+>>UnChecked Exception we can handled only one ways i.e by using try catch 
+
+When: 
+-----
+>> Whenever you will pass the invalid input to the server then you might get Exception
+
+Notes* 
+-------
+>> one try block can have multiple catch block for that  whichever exception it will match  but one problem is if the exception is not match then 
+>> if you don't know which exception it will throw then you can mention parent class Exception like (catch(Exception e)) because Exception class is the parent 
+   exception class for all the exception class
+ 
+Finally
+----------
+>>case-1(Exception occurred, catch block handled - finally block will execute )
+>>case-2(Exception occurred, catch block not handled - finally block will execute )
+>>case-3(Exception not occurred, catch block skipped - finally block will execute )
+
+>>try catch is a statement level and throws is method level 
