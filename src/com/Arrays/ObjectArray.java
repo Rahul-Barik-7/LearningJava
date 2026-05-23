@@ -5,14 +5,14 @@ public class ObjectArray {
 		
 		Object a[]= {1,10.5,'a',"hello",true};
 		
-//		for(Object x:a)
-//		{
-//			System.out.println(x);
-//		}
-		
-		for(int i=0;i<=a.length;i++)
+		for(Object x:a)
 		{
-			System.out.println(a[i]);
+			System.out.println(x);
 		}
+		
+//		for(int i=0;i<=a.length;i++)
+//		{
+//			System.out.println(a[i]);
+//		}
 	}
 }
