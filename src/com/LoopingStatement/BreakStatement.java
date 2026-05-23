@@ -8,7 +8,8 @@ public class BreakStatement {
 		{
 			if(i==6)
 			{
-				break; //after break you should not used any statement
+				break; 
+				//after break you should not used any statement
 				//System.out.println(i); 
 			}
 			System.out.println(i);

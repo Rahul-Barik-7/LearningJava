@@ -10,7 +10,7 @@ public class WhileLoopDemo1 {
 		{
 			if(i==5)
 			{
-				i++;
+				i++;	
 				continue;
 			}
 			System.out.println(i); //statement

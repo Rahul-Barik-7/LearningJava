@@ -18,7 +18,7 @@ public class ArrayListDemo {
 		myList.add("Rahul");
 		myList.add(100);
 		myList.add(null);
-		myList.add(10.5);
+		myList.add(10.5);git gitcduieywuiie
 		
 		System.out.println("size of the array list is : "+myList.size());
 		System.out.println("My array lists are : "+myList);
