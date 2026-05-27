@@ -1,4 +1,7 @@
 package com.Arrays;
+
+import java.util.Iterator;
+
 /*
 1- Declare an array
 2- Add values in array
@@ -29,27 +32,44 @@ public class MultiDimensionalArray {
 		 
 		
 		//approach-2 (if you don't know the size of an array)
-		int a[][]= {{100,200},{300,400},{500,600}};
+		int a[][]= {{100,200,50},
+					{300,400},
+					{500,600,1,2,3,4}};
 		
 		System.out.println("number of rows:"+a.length );
-		System.out.println("number of columns:"+a[2].length );
+		System.out.println("number of columns:"+a[1].length );
 		
 		//read specific value from array
-		System.out.println("value of this array : "+a[2][1]);
+		System.out.println("value of this array : "+a[2][0]);
 		
-		//read all the values from array (for loop)
-//		for(int r=0;r<a.length;r++)
+		//read all the values from array (for loop) -app1
+//		for (int row=0;row<=2;row++)
 //		{
-//			for(int c=0;c<a[r].length;c++)
+//			for(int column=0;column<=1;column++)
 //			{
-//				System.out.print(a[r][c]+" ");
+//				System.out.print(a[row][column]+" ");
 //			}
 //			System.out.println();
-//		}		
+//		}
+		
+		//read all the values from array (for loop) -app2 when you do not know the rows and column count
+//		
+//		for(int rows=0;rows<=a.length-1;rows++)
+//		{
+//			for(int column=0;column<=a[rows].length-1;column++)
+//			{
+//				System.out.print(a[rows][column]+" ");
+//			}
+//			System.err.println();
+//		}
+		//lenght-1 means we are matching the length with index value 
+		
+		
+		
 		
 		//for each loop
 		
-		for(int arr[] :a)
+		for(int arr[] :a)   //taking single D array bcz we are storing multiple value in a single variable like 1 row can contains multiple columns
 		{
 			for(int x:arr) {
 				System.out.print(x+" ");
